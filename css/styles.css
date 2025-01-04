@@ -41,5 +41,6 @@ main {
 }
 
 .info__photo {
-  height: 400px;
+  min-width: 300px;
+  max-width: 400px;
 }
