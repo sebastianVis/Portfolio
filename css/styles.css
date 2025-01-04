@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #39ff14;
+  margin-top: 5%;
+}
+
+h2 {
+  font-family: "Press Start 2P", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #39ff14;
+  margin-top: 20px;
+}
+
+.badge {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px;
+  text-align: center;
+}
+
+main {
+  font-family: "Raleway", serif;
+}
+
+.info__photo {
+  height: 400px;
+}
