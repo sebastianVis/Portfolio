@@ -35,6 +35,11 @@
     height: 16px;
     filter: invert(24%) sepia(79%) saturate(744%) hue-rotate(194deg) brightness(92%) contrast(87%);
   }
+
+  .linkedin-badge .text{
+    position: relative;
+    top: -5px;
+  }
   .github-badge {
     padding: 10px 106px;
     background-color: white;
@@ -43,4 +48,9 @@
   .github-badge .icon {
     height: 16px;
     filter: invert(11%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(94%) contrast(100%);
+  }
+
+  .github-badge .text{
+    position: relative;
+    top: -5px;
   }

@@ -25,3 +25,18 @@
     
 }
 
+.header .buttons {
+    text-decoration: none;
+    color: limegreen;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border: 2px solid transparent;
+  }
+  
+  .header .buttons:hover {
+    color: black;
+    background-color: limegreen;
+    border-color: limegreen;
+    border-radius: 5px;
+  }

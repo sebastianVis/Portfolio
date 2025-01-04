@@ -3,6 +3,7 @@
 .main{
     width: 100%;
     background-color: #573061;
+    
 }
 
 .container{
@@ -51,4 +52,65 @@
     font-size: 20px;
     padding: 10px;
     border-radius: 4px;
+}
+
+.container-projects{
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: left;
+    justify-content: justify;
+}
+
+.container-projects .container-flex .flex__items{
+    padding: 10px;
+    width: 560px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #981EB6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.container-projects .container-flex .flex__items:nth-child(3){
+    grid-column: 2 /2;
+    grid-row: 2/ 2;
+}
+
+.code-button{
+    color: white;
+    grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  width: auto;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; 
+  transition: background-color 0.3s ease;
+  justify-self: center; 
+}
+
+.code-button:hover {
+    background-color: #388e3c;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.container-skills{
+    position: relative;
+    text-align: center;
 }
